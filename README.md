@@ -24,7 +24,7 @@
 
 * Naive RandomOverSampler Model:
 
-![Random Over Sampler](images/RandomOverSampler.png)
+![Random Over Sampler](Images/RandomOverSampler.png)
 
 * ClusterCentroids:
 
@@ -44,7 +44,7 @@
 
 * EasyEnsembleClassifier:
 
-![EasyEnsembleClassifier](Images/EasyEnsembleClassifier.png)
+![EasyEnsembleClassifier](Images/EasyEnsembleClassifier.PNG)
 
 
 #### While testing our models, and while working with the Balanced Random Forest Classifier, we created a two columns dataframe in which we organized each impactful feature and sorted them by their importance.
@@ -52,9 +52,7 @@
 ![Important Features Sorted in Desc. Order](Images/Important_features.png)
 
 
-
-
-
+## Summary:
 
 
 
