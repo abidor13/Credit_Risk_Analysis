@@ -54,7 +54,15 @@
 
 ## Summary:
 
-#### 
+#### When going through the above results for each model used, we are able to notice how much more accuracy we got from our last two methods, the BalancedRandomForestClassifier and the EasyEnsembleClassifier models, our Balanced Accuracy was 93% and 79%, respectively. While for the initial methods, it didn't surpass 63%.
+
+#### The EasyEnsembleClassifier Model also had a higher recall score of 92%. The other models were all way below that and around 70%. The high recall score for the high_risks indicates that a big percetange of potentially high risk loan seekers were declined by the system.
+
+#### Within the same model, we also notice that Precision for High_risk was at 9%, which indicates that we have some False positive cases, which even though are not a high_risk they were detected as such by the model and would be prevented from approval.
+
+#### Clearly the EasyEnsembleClassifier Model provided best results out of all the models tested in this analysis, and while we could recommend this method, the only challenge would be the amount of lost business due to high Precision for the high_risk category, and how many loan/credit application could be lost to a competitor due to the system rejecting/considering them a high_risk. 
+
+#### Regardless of that, and from a safety standpoint, I would recommend the use of the EasyEnsembleClassifier model for predicting high risk loans.
 
 
 
