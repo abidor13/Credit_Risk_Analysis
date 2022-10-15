@@ -49,7 +49,7 @@
 
 #### While testing our models, and while working with the Balanced Random Forest Classifier, we organized each impactful feature and sorted them by their importance.
 
-![Important Features Sorted in Desc. Order](Images/Important_features.png)
+![Important Features Sorted in Desc. Order](Images/important_features.png)
 
 
 ## Summary:
